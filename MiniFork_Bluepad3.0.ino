@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <ESP32Servo.h>  // by Kevin Harrington
-#include <Bluepad32.h>
+#include <Bluepad32.h>   // by Richard Quesada
 
 ControllerPtr myController;
 
