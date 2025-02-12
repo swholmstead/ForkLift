@@ -16,3 +16,5 @@ Under Tools > Board > Board Manager, add these boards
 
 Under Tools > Board, select esp32_bluepad32 > ESP 32 Dev Module
 
+<h2>3D Parts</h2>
+Models for 3D parts can be found here: https://www.printables.com/model/1189510-3d-printed-rc-forklift-optimized
