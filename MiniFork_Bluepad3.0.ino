@@ -29,6 +29,8 @@ ControllerPtr myController;
 #define mastTiltMin 80
 #define mastTiltMax 140
 
+#define steeringMaxSpeed 2
+
 #define wiggleCountMax 6
 
 Servo steeringServo;
@@ -188,8 +190,14 @@ void processSteering(int newValue) {
     newValue += steeringDeadZone;
   }
 
-  // calculate steering servo angle
-  steeringValue = (90 - (newValue / 10));
+  // calculate target steering angle
+  int targetValue = (90 - (newValue / 10));
+  // calculate and limit change rate 
+  int delta = steeringValue - targetValue;
+  if (abs(delta) > steeringMaxSpeed) {
+    delta = steeringMaxSpeed * (delta > 0 ? 1 : -1);
+  }
+  steeringValue -= delta;
   steeringServo.write(steeringValue - steeringTrim);
 
   // calculate speed of opposite wheel based upon steering (1.0 .. 0.25)
