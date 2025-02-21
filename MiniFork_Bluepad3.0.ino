@@ -7,20 +7,15 @@ ControllerPtr myController;
 #define steeringServoPin 23
 #define mastTiltServoPin 22
 
-#define mastMotor0 26     // Used for controlling mast movement
-#define mastMotor1 25     // Used for controlling mast movement
-#define lightsAttach0 18  // Used for controlling headlight control
-#define lightsAttach1 17  // Used for controlling headlight control
+#define mastMotor0 32     // Used for controlling mast movement
+#define mastMotor1 33     // Used for controlling mast movement
+#define lightsAttach0 21  // Used for controlling headlight control
+#define lightsAttach1 19  // Used for controlling headlight control
 
-#define leftMotor0 21     // Used for controlling the left motor movement
-#define leftMotor1 19     // Used for controlling the left motor movement
-#define rightMotor0 32    // Used for controlling the right motor movement
-#define rightMotor1 33    // Used for controlling the right motor movement
-
-#define dpadUp 1
-#define dpadDown 2
-#define dpadRight 4
-#define dpadLeft 8
+#define leftMotor0 17     // Used for controlling the left motor movement
+#define leftMotor1 18     // Used for controlling the left motor movement
+#define rightMotor0 26    // Used for controlling the right motor movement
+#define rightMotor1 25    // Used for controlling the right motor movement
 
 #define throttleDeadZone 15
 #define steeringDeadZone 30
@@ -29,7 +24,7 @@ ControllerPtr myController;
 #define mastTiltMin 80
 #define mastTiltMax 140
 
-#define steeringMaxSpeed 2
+#define steeringMaxSpeed 3
 
 #define wiggleCountMax 6
 
@@ -206,14 +201,14 @@ void processSteering(int newValue) {
 }
 
 void processMastTilt(int newValue) {
-  if (newValue & dpadUp) {
+  if (newValue & DPAD_UP) {
     if (mastTiltValue < mastTiltMax) {
       //if using a ps3 controller that was flashed as an xbox360 controller change the value "1 " below to a "3" or "4" to make up for the slower movement.
       mastTiltValue = mastTiltValue + mastMoveSpeed;
       mastTiltServo.write(mastTiltValue);
       //Serial.printf("mast tilt: %d\n", mastTiltValue);
     }
-  } else if (newValue & dpadDown) {
+  } else if (newValue & DPAD_DOWN) {
     if (mastTiltValue > mastTiltMin) {
       //if using a ps3 controller that was flashed as an xbox360 controller change the value "1" below to a "3" or "4" to make up for the slower movement.
       mastTiltValue = mastTiltValue - mastMoveSpeed;
