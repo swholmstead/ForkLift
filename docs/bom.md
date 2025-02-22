@@ -1,11 +1,10 @@
 <h2>Bill of Materials</h2>
 
+** WORK IN PROGRESS **
+
 * N20 12V 100 RPM motors (qty 3)
     * https://www.amazon.com/gp/product/B0B8DB6NC8
     * https://www.aliexpress.us/item/3256806632632389.html
-* N20 12V 1000 RPM 55mm screw motor
-    * https://www.amazon.com/gp/product/B0DGSZRN4X
-    * https://www.aliexpress.us/item/3256805083153738.html
 * 6700-2RS bearings 10mm x 15mm (qty 7)
     * https://www.amazon.com/gp/product/B0CR68JXGD 
     * https://www.aliexpress.us/item/3256807096786782.html M4 Insert Nut
