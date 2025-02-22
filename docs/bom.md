@@ -1,6 +1,6 @@
 <h2>Bill of Materials</h2>
 
-** WORK IN PROGRESS **
+<b>WORK IN PROGRESS</b>
 
 * N20 12V 100 RPM motors (qty 3)
     * https://www.amazon.com/gp/product/B0B8DB6NC8
