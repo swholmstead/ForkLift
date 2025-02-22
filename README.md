@@ -1,4 +1,4 @@
-<h1>3D printed RC Fork Lift Truck</h1>
+<h1>3D printed RC Fork Lift</h1>
 <img src="https://github.com/swholmstead/ForkLift/blob/main/IMG_3393.JPEG" alt="Skidsteer" width=600 height=400>
 
 <h2>Arduino IDE</h2>
