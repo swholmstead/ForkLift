@@ -5,7 +5,7 @@
 
 * [Bill of Materials](docs/bom.md)
 * [Schematic and Printed Circuit Board](docs/schematics.md)
-* Assembly Instructions
+* [Assembly Instructions](docs/assembly.md)
 * [Arduino IDE](docs/arduino.md)
 
 List of supported game controllers can be found here: [https://bluepad32.readthedocs.io/en/latest/supported_gamepads/](https://bluepad32.readthedocs.io/en/latest/supported_gamepads/)
