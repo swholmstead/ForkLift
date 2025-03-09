@@ -22,3 +22,4 @@ All of these components are common and can be found online. I have provided link
 * 3mm LED holder [Amazon](https://www.amazon.com/dp/B07NRWLWCP) [AliExpress](https://www.aliexpress.us/item/3256803821521152.html)
 * M2.6 x 6mm self-tapping pan head screws [Amazon](https://www.amazon.com/dp/B08QF455PJ) [AliExpress](https://www.aliexpress.us/item/3256806345826640.html)
 * M2.6 x 8mm self-tapping pan head screws [Amazon](https://www.amazon.com/dp/B08QF455PJ) [AliExpress](https://www.aliexpress.us/item/3256806345826640.html)
+* T270 or #277 or 840D upholstery thread for mast [Amazon](https://www.amazon.com/dp/B09NBCZLZY)
