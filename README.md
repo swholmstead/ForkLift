@@ -1,5 +1,5 @@
 <h1>3D printed RC Fork Lift</h1>
-<img src="https://github.com/swholmstead/ForkLift/blob/main/docs/IMG_3393.JPEG" alt="Skidsteer" width=600 height=400>
+<img src="https://github.com/swholmstead/ForkLift/blob/main/pictures/IMG_3393.JPEG" alt="Skidsteer" width=600 height=400>
 
 <h2>Table of Contents</h2>
 
