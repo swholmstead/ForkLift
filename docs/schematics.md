@@ -13,3 +13,16 @@ It will automatically fill in most options once you have uploaded the file.  No 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/schematics.png" alt="Schematics" width=600>
 <h2>Printed Circuit Board</h2>
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/PCB.png" alt="PCB" width=400>
+
+<h2>Electronics assembly</h2>
+
+Solder all components on the PCB.
+
+
+<h3>5V Buck Converter</h3>
+Assembly the 5V buck converter. Ensure that the 5V jumper has solder and you use an exacto knife to cut the trace above the ADJ jumper.
+
+<img src="https://github.com/swholmstead/Forklift/blob/main/pictures/S20250310_0001.jpg" alt="Buck Converter" width=400>
+
+Assembly the PCB, batteries, fuse, and 5V buck converter.  Turn on power and ensure buck converter is generating +5V.
+
