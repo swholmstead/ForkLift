@@ -73,7 +73,7 @@ Attach LED lights and LED mounts to roll cage.  Route wires down slot in side of
 
 <h2>Final Assembly</h2>
 
-Press 6700-2RS bearings into rear wheels.  Attach tires to wheels.
+Press 106-2RS bearings into rear wheels.  Attach tires to wheels.
 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3525.JPEG" alt="Skidsteer" width=600>
 
