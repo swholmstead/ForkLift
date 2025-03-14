@@ -16,7 +16,10 @@ It will automatically fill in most options once you have uploaded the file.  No 
 
 <h2>Electronics assembly</h2>
 
-Solder all components on the PCB.
+Solder all components on the PCB.  
+
+<b>NOTE: Make sure to use the power switch standoff under the toggle switch so that it will be in the right height
+so that you can operate it without opening the forklift covers.</b>
 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3502.JPEG" alt="Buck Converter" width=400>
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3503.JPEG" alt="Buck Converter" width=400>
