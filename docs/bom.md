@@ -7,7 +7,6 @@ All of these components are common and can be found online. I have provided link
 * N20 12V 100 RPM motors (qty 1) [Amazon](https://www.amazon.com/gp/product/B0B8DB6NC8) [AliExpress](https://www.aliexpress.us/item/3256806632632389.html)
 * 106-2RS bearings 6mm x 10mm (qty 2) [Amazon](https://www.amazon.com/gp/product/B082PPH3Z2)
 * 85-2RS bearings 5mm x 8mm (qty 4) [Amazon](https://www.amazon.com/gp/product/B082PRTDZ9)
-* 6700-2RS bearings 10mm x 15mm (qty 4) [Amazon](https://www.amazon.com/gp/product/B0CR68JXGD) [AliExpress](https://www.aliexpress.us/item/3256807096786782.html)
 * 9g Micro Servo (qty 2) - available in metal or plastic.  Both work fine, but metal costs more but is more durable.
     *  SG90 (plastic) [Amazon](https://www.amazon.com/dp/B07Q6JGWNV) [AliExpress](https://www.aliexpress.us/item/3256806097043668.html)
     *  MG90S (metal) [Amazon](https://www.amazon.com/dp/B09BV5D7MD) [AliExpress](https://www.aliexpress.us/item/3256807333354770.html)
