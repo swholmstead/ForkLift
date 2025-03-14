@@ -48,7 +48,7 @@ and attach to servo with M2.6 x 6mm screws.
 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3509.JPEG" alt="Skidsteer" width=600>
 
-Push 85-2RS bearings into cab and wheel captures.
+Push 85-2RS 5mm x 8mm bearings into cab and wheel captures.
 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3508.JPEG" alt="Skidsteer" width=600>
 
@@ -73,7 +73,7 @@ Attach LED lights and LED mounts to roll cage.  Route wires down slot in side of
 
 <h2>Final Assembly</h2>
 
-Press 106-2RS bearings into rear wheels.  Attach tires to wheels.
+Press 106-2RS 6mm x 10mm bearings into rear wheels.  Attach tires to wheels.
 
 <img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3525.JPEG" alt="Skidsteer" width=600>
 
