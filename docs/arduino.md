@@ -26,6 +26,7 @@ Open MiniFork_Bluepad3.0.ino file and click right arrow on top tool bar to downl
 * "A" button controls lights on/off
 * "B" button executes "wiggle" function to move motors and flash lights (if you have more than 1 vehicle, this makes it easy to identify which
 one is paired with this controller.
+* L1 and R1 bumper buttons adjust the steering trim "center" point.
 
 <h2>Rate Limited Steering</h2>
 Steering is dampered (rate limited).  Continuing to hold in one direction will apply greater turning.  It will also not slam back to centered when
