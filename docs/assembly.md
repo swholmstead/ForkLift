@@ -41,7 +41,7 @@ Attach front and rear fenders with M2.6 x 6mm screws.
 
 Add 100mm of wire with JST-XH connectors to N20 12V motors.  Secure in cab with motor lock and M2.6 x 6mm screw.
 
-<img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3577.JPEG" alt="Skidsteer" width=400>
+<img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3507.JPEG" alt="Skidsteer" width=400>
 
 Attach steering servo and servo arm to cab with screws including in servo kit. Push steering bar through side slots in cab 
 and attach to servo with M2.6 x 6mm screws.
