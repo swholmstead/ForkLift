@@ -4,7 +4,7 @@ All of these components are common and can be found online. I have provided link
 
 * ESP32 WROOM-32 Development Board [Amazon](https://www.amazon.com/dp/B08D5ZD528) [AliExpress](https://www.aliexpress.us/item/3256805767190776.html)
     * This is available with micro USB or USB-C.  Get the one that you like.
-* N20 12V 100 RPM motors (qty 1) [Amazon](https://www.amazon.com/gp/product/B0B8DB6NC8) [AliExpress](https://www.aliexpress.us/item/3256806632632389.html)
+* N20 12V 100 RPM motors (qty 3) [Amazon](https://www.amazon.com/gp/product/B0B8DB6NC8) [AliExpress](https://www.aliexpress.us/item/3256806632632389.html)
 * 106-2RS bearings 6mm x 10mm (qty 2) [Amazon](https://www.amazon.com/gp/product/B082PPH3Z2)
 * 85-2RS bearings 5mm x 8mm (qty 4) [Amazon](https://www.amazon.com/gp/product/B082PRTDZ9)
 * 9g Micro Servo (qty 2) - available in metal or plastic.  Both work fine, but metal costs more but is more durable.
