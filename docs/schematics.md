@@ -1,6 +1,6 @@
 <h2>Schematic and Gerber Files</h2>
 
-The PCB (printed circuit board) is a standard 2 layer board.  It can be manufactured by sites like https://jlcpcb.com/.
+The PCB (printed circuit board) is a standard 2 layer board.  It can be manufactured by sending the Gerber files to sites like https://jlcpcb.com/.
 It only costs $2 to get 5 PCBs.  That is quite the bargain.
 
 You will need to create a free account, then click "Order Now".  There will be a button to upload the Gerber zip files.
