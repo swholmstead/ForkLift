@@ -32,7 +32,7 @@ Assembly the 5V buck converter. Ensure that the 5V jumper has solder and you use
 Assembly the PCB, batteries, fuse, and 5V buck converter.  Turn on power and ensure buck converter is generating +5V.
 There are labeled test points on the STEER servo pins that you can use.
 
-<img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3685.JPEG" alt="Buck Converter" width=400>
+<img src="https://github.com/swholmstead/Forklift/blob/main/pictures/IMG_3685.JPEG" alt="Buck Converter" width=600>
 
 <h3>DRV8833 Motor Drivers</h3>
 Assembly the DRV8833 Motor Driver boards.  Ensure that J2 jumper is soldered.
