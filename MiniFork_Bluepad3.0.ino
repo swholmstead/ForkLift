@@ -215,7 +215,7 @@ void processMastTilt(int newValue) {
     mastTiltValue = mastTiltMin;
   }
   mastTiltServo.write(mastTiltValue);
-  Serial.printf("mast tilt: %d\n", mastTiltValue);
+  // Serial.printf("mast tilt: %d\n", mastTiltValue);
 }
 
 void processLights(bool buttonValue) {
