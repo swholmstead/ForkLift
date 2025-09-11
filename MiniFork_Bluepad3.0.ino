@@ -21,8 +21,9 @@ ControllerPtr myController;
 #define steeringDeadZone 30
 #define mastDeadZone 20
 #define mastMoveSpeed 1
-#define mastTiltMin 80
+#define mastTiltMin 75
 #define mastTiltMax 140
+#define mastTiltDeadZone 212
 
 #define steeringMaxSpeed 3
 
@@ -35,7 +36,7 @@ int lightSwitchTime = 0;
 float steeringValue = 90;
 float steeringAdjustment = 1;
 int steeringTrim = 0;
-int mastTiltValue = 115;
+int mastTiltValue = 120;
 bool lightsOn = false;
 unsigned long lastWiggleTime = 0;
 int wiggleCount = 0;
@@ -89,7 +90,7 @@ void processGamepad(ControllerPtr ctl) {
   //Rasing and lowering of mast
   processMast(ctl->axisRY());
   //MastTilt
-  processMastTilt(ctl->dpad());
+  processMastTilt(ctl->axisRX());
   //Aux
   processLights(ctl->thumbR() | ctl->a());
 
@@ -201,21 +202,20 @@ void processSteering(int newValue) {
 }
 
 void processMastTilt(int newValue) {
-  if (newValue & DPAD_UP) {
-    if (mastTiltValue < mastTiltMax) {
-      //if using a ps3 controller that was flashed as an xbox360 controller change the value "1 " below to a "3" or "4" to make up for the slower movement.
-      mastTiltValue = mastTiltValue + mastMoveSpeed;
-      mastTiltServo.write(mastTiltValue);
-      //Serial.printf("mast tilt: %d\n", mastTiltValue);
-    }
-  } else if (newValue & DPAD_DOWN) {
-    if (mastTiltValue > mastTiltMin) {
-      //if using a ps3 controller that was flashed as an xbox360 controller change the value "1" below to a "3" or "4" to make up for the slower movement.
-      mastTiltValue = mastTiltValue - mastMoveSpeed;
-      mastTiltServo.write(mastTiltValue);
-      //Serial.printf("mast tilt: %d\n", mastTiltValue);
-    }
+  int mastSpeed = 0;
+  if (newValue > mastTiltDeadZone) {
+    mastSpeed = (newValue - mastTiltDeadZone) / 150 + 1;
+  } else if (abs(newValue) > mastTiltDeadZone) {
+    mastSpeed = (newValue + mastTiltDeadZone) / 150 - 1;
   }
+  mastTiltValue -= mastSpeed;
+  if (mastTiltValue > mastTiltMax) {
+    mastTiltValue = mastTiltMax;
+  } else if (mastTiltValue < mastTiltMin) {
+    mastTiltValue = mastTiltMin;
+  }
+  mastTiltServo.write(mastTiltValue);
+  Serial.printf("mast tilt: %d\n", mastTiltValue);
 }
 
 void processLights(bool buttonValue) {
