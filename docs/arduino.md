@@ -20,8 +20,7 @@ Open MiniFork_Bluepad3.0.ino file and click right arrow on top tool bar to downl
 <h2>Controls</h2>
 
 * Left joystick y-axis controls speed and x-axis controls steering
-* Right joystick y-axis controls raising/lowering mast carriage
-* DPAD up/down control mast tilt
+* Right joystick y-axis controls raising/lowering mast and x-axis controls mast tilt
 * "A" button controls lights on/off
 * "B" button executes "wiggle" function to move motors and flash lights (if you have more than 1 vehicle, this makes it easy to identify which
 one is paired with this controller.
