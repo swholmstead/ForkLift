@@ -160,15 +160,15 @@ void processMast(int newValue) {
   }
 }
 
-void processTrimRight(int trimValue) {
-  if (trimValue == 1 && trimValue < 20) {
+void processTrimRight(bool trimValue) {
+  if (trimValue && steeringTrim < 20) {
     steeringTrim++;
     delay(100);
   }
 }
 
-void processTrimLeft(int trimValue) {
-  if (trimValue == 1 && trimValue > -20) {
+void processTrimLeft(bool trimValue) {
+  if (trimValue && steeringTrim > -20) {
     steeringTrim--;
     delay(100);
   }
